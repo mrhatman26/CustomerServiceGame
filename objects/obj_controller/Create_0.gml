@@ -1,0 +1,1 @@
+ghost_customer_timer = irandom_range(15, 60);
