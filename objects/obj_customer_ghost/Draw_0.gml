@@ -1,1 +1,1 @@
-draw_sprite_ext(spr_customer_base, spindex, x, y, image_xscale * size_increase, image_yscale * size_increase, 0, c_black, image_alpha);
+draw_sprite_ext(spr_customers, spindex, x, y, image_xscale * size_increase, image_yscale * size_increase, 0, c_black, image_alpha);
