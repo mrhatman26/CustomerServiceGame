@@ -14,11 +14,13 @@ if (customer_create_timer < 1){
 	for (var i = 0; i < array_length(customer_queue); i++){
 		if (customer_queue[i] == noone){
 			queue_pos = i;
+			break;
 		}
 	}
 	if (queue_pos != -1){
-		var new_customer = instance_create_layer(room_width + sprite_get_width(spr_customers), room_width / 2, "Instances", obj_customer);
+		var new_customer = instance_create_layer(room_width + sprite_get_width(spr_customers), room_height / 2, "Instances", obj_customer);
 		new_customer.my_queue_pos = queue_pos;
+		customer_queue[queue_pos] = new_customer;
 	}
 	customer_create_timer = irandom_range(300, 1800);
 }
@@ -30,5 +32,8 @@ if (global.debug == true){
 	}
 	if (mouse_check_button_pressed(mb_right)){
 		instance_create_layer(mouse_x, mouse_y, "Instances", obj_customer);
+	}
+	if (keyboard_check_pressed(ord("S"))){
+		customer_create_timer = 0;
 	}
 }

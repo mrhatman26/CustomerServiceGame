@@ -43,6 +43,7 @@
     {"id":{"name":"obj_customer","path":"objects/obj_customer/obj_customer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_ghost_handler","path":"scripts/scr_ghost_handler/scr_ghost_handler.yy",},},
+    {"id":{"name":"scr_queue_handler","path":"scripts/scr_queue_handler/scr_queue_handler.yy",},},
     {"id":{"name":"spr_customer_ghost_temp","path":"sprites/spr_customer_ghost_temp/spr_customer_ghost_temp.yy",},},
     {"id":{"name":"spr_customers_temp","path":"sprites/spr_customers_temp/spr_customers_temp.yy",},},
     {"id":{"name":"spr_customers","path":"sprites/spr_customers/spr_customers.yy",},},
