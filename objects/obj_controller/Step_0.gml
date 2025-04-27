@@ -12,7 +12,7 @@ customer_create_timer--;
 if (customer_create_timer < 1){
 	var queue_pos = -1;
 	for (var i = 0; i < array_length(customer_queue); i++){
-		if (customer_queue[i] == none){
+		if (customer_queue[i] == noone){
 			queue_pos = i;
 		}
 	}
