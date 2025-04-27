@@ -1,4 +1,3 @@
-my_head = irandom(sprite_get_number(spr_customer_heads));
-my_body = irandom(sprite_get_number(spr_customer_bodies));
-my_legs = irandom(sprite_get_number(spr_customer_legs));
+my_body = irandom(sprite_get_number(spr_customers));
 size_increase = 3
+queue_pos = 0;

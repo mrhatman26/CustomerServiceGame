@@ -1,7 +1,7 @@
 if (spawned == false){
 	image_alpha = image_alpha + 0.01;
-	if (image_alpha >= 1){
-		image_alpha = 1;
+	if (image_alpha >= max_alpha){
+		image_alpha = max_alpha;
 		spawned = true;
 	}
 }
