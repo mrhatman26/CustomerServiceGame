@@ -16,6 +16,7 @@ if (global.debug == true){
 	draw_text(x + 111, y - 32, string(target_pos));
 	draw_text(x + 111, y - 64, string(my_queue_pos));
 	draw_text(x + 111, y - 96, string(x));
+	draw_text(x + 111, y - 128, string(need_number) + " | " + string(subneed_number));
 	draw_rectangle(x, y, x + 32, y - 32, false);
 	draw_set_colour(c_black);
 }
