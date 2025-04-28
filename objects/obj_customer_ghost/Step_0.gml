@@ -14,6 +14,6 @@ else{
 		}
 	}
 }
-if (x < -74 || x > 1994 || y < -212 || y > 1292){ //Destroy when off screen
+if (x < 0 - (sprite_get_width(spr_customers) * size_increase) || x > room_width + (sprite_get_width(spr_customers) * size_increase) || y < 0 - (sprite_get_width(spr_customers) * size_increase) || y > room_height + (sprite_get_width(spr_customers) * size_increase)){ //Destroy when off screen
 	instance_destroy();
 }
