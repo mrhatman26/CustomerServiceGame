@@ -47,6 +47,7 @@
     {"id":{"name":"scr_misc","path":"scripts/scr_misc/scr_misc.yy",},},
     {"id":{"name":"scr_queue_handler","path":"scripts/scr_queue_handler/scr_queue_handler.yy",},},
     {"id":{"name":"spr_customer_ghost_temp","path":"sprites/spr_customer_ghost_temp/spr_customer_ghost_temp.yy",},},
+    {"id":{"name":"spr_customers_outline","path":"sprites/spr_customers_outline/spr_customers_outline.yy",},},
     {"id":{"name":"spr_customers_temp","path":"sprites/spr_customers_temp/spr_customers_temp.yy",},},
     {"id":{"name":"spr_customers","path":"sprites/spr_customers/spr_customers.yy",},},
     {"id":{"name":"spr_desk","path":"sprites/spr_desk/spr_desk.yy",},},

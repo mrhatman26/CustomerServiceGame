@@ -16,3 +16,8 @@ if (queue_pos_updated == true){
 		speed = 2;
 	}
 }
+else{
+	if (my_queue_pos == 0){
+		show_debug_message("Ready to take my order!");
+	}
+}			
