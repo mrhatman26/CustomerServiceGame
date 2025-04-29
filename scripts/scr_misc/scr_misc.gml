@@ -14,3 +14,13 @@ function mouse_overlaps_me(x, y, sprite, size_increase=1){
 		return false;
 	}
 }
+
+function get_array_index(array, value){
+	for (var i = 0; i < array_length(array); i++){
+		show_message("value = " + string(value) + "\n\narray[" + string(i) + "] = " + string(array[i]));
+		if (array[i] == value){
+			return i;
+		}
+	}
+	return -1;
+}

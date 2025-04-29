@@ -6,3 +6,5 @@ target_pos = 0;
 direction = 180
 need_number = irandom_range(0, array_length(global.needs) - 1);
 subneed_number = irandom_range(0, array_length(global.needs[need_number]) - 1);
+queue_paitence = irandom_range(120, 360);
+queuing = true;

@@ -20,7 +20,7 @@ if (customer_create_timer < 1){
 	if (queue_pos != -1){
 		var new_customer = instance_create_layer(room_width + sprite_get_width(spr_customers), room_height / 2, "Instances", obj_customer);
 		new_customer.my_queue_pos = queue_pos;
-		customer_queue[queue_pos] = new_customer;
+		customer_queue[queue_pos] = new_customer.id;
 	}
 	customer_create_timer = irandom_range(300, 1800);
 }
