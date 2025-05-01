@@ -1,3 +1,7 @@
+//Pre-Checks
+if (object_exists(obj_item_controller) == false){
+	instance_create_layer(x  + 96, y, "Instances", obj_item_controller);
+}
 //Global vars
 global.debug = true;
 global.queue_target_x = round(((room_width / 4) + (room_width / 2)) / 2);

@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_controller",
+  "%Name":"obj_item_controller",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_controller",
+  "name":"obj_item_controller",
   "overriddenProperties":[],
   "parent":{
     "name":"System",
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_controller",
-    "path":"sprites/spr_controller/spr_controller.yy",
+    "name":"spr_item_controller",
+    "path":"sprites/spr_item_controller/spr_item_controller.yy",
   },
   "spriteMaskId":null,
   "visible":true,
