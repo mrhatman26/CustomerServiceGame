@@ -24,3 +24,16 @@ function get_array_index(array, value){
 	}
 	return -1;
 }
+
+function string_split_real(value, deliminator, remove_empty=false){
+	var split_string = string_split(value, deliminator, remove_empty);
+	for (var ii = 0; ii < array_length(split_string); ii++){
+		try{
+			split_string[ii] = real(string_replace(split_string[ii], "\n", ""));
+		}
+		catch (_exception){
+			show_debug_message(split_string[ii] + " cannot be converted to real");
+		}
+	}
+	return split_string;
+}
