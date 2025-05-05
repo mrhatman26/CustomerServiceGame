@@ -9,7 +9,7 @@ else{
 	while (file_text_eof(items_file) == false){
 		file_text_readln(items_file);
 		line = file_text_read_string(items_file);
-		if (string_pos("\\", line) <= 0){
+		if (string_pos("//", line) <= 0){
 			if (line != ""){
 				line_split = []
 				array_push(global.items, string_split_real(line, ", "));//string_split(line, ", ", false));
