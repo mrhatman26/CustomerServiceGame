@@ -8,4 +8,5 @@ direction = 180
 need_number = 0;//irandom_range(0, array_length(global.needs) - 1);
 subneed_number = 0;//irandom_range(0, array_length(global.needs[need_number]) - 1);
 queue_paitence = irandom_range(120, 360);
+item_no = irandom_range(0, array_length(global.items));
 queuing = true;
