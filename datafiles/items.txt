@@ -1,6 +1,8 @@
-27, spaghetti, 0.65, -1, 300
-27, spaghetti, 0.95, -1, 500
-27, spaghetti, 1.25, -1, 1000
-27, penne pasta, 0.75, -1, 500
-27, penne pasta, 1.38, -1, 1000
-27, vegetable pasta sauce, 2.25, 1.75, 500
+//Aisle 27 (Pasta, Pasta Sauces and Mexican Kits (And foods)) 
+//Sown is short for "Store Own" because I'm as creative as a grey wall.
+27, Sown spaghetti, 0.65, -1, 300
+27, Sown spaghetti, 0.95, -1, 500
+27, Sown spaghetti, 1.25, -1, 1000
+27, Sown penne pasta, 0.75, -1, 500
+27, Sown penne pasta, 1.38, -1, 1000
+27, Sown vegetable pasta sauce, 2.25, 1.75, 500
