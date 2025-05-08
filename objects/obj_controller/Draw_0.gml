@@ -3,5 +3,6 @@ if (global.debug == true){
 	draw_set_colour(c_red);
 	draw_text(32, 96, ">>DEBUG MODE<<");
 	draw_text(32, 128, "customer_create_timer: " + string(customer_create_timer));
+	draw_text(32, 160, title_test);
 	draw_set_colour(c_black);
 }

@@ -37,3 +37,27 @@ function string_split_real(value, deliminator, remove_empty=false){
 	}
 	return split_string;
 }
+
+/*function get_need_params(need, subneed, my_id, item=""){
+	switch(need){
+		case 0:
+			my_id.question_text = "";
+	}
+}*/
+
+function string_title(str){
+	var current_char = "";
+	for (var counter = 0; counter < string_length(str); counter++){
+		current_char = string_copy(str, counter, 1);
+		if (current_char == " " || counter == 0){
+			try{
+				str = string_insert(string_upper(string_copy(str, counter + 1, 1)), str, counter + 1);
+				str = string_delete(str, counter + 2, 1);
+			}
+			catch (_exception){
+				show_debug_message("Something went wrong while trying to make the string a title!");
+			}
+		}
+	}
+	return str;
+}

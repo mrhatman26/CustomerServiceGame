@@ -14,3 +14,4 @@ global.controller = self;
 ghost_customer_timer = irandom_range(15, 60);
 customer_queue = generate_repeating_array(6, noone);
 customer_create_timer = irandom_range(300, 1800);
+title_test = string_title("john smith!");

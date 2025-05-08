@@ -25,7 +25,11 @@ if (queue_pos_updated == true){
 else{
 	if (my_queue_pos == 0){
 		//I am at the front of the queue! (The player can interact with me)
-		show_debug_message("Ready to take my order!");
+		if (asked_question == false){
+			if (mouse_overlaps_me(x, y, spr_customer, size_increase) && mouse_check_button_pressed(mb_left)){
+				//Ask question
+			}
+		}
 	}
 	if (queuing == true){
 		//I am still waiting in the queue, grr.

@@ -10,3 +10,5 @@ subneed_number = 0;//irandom_range(0, array_length(global.needs[need_number]) - 
 queue_paitence = irandom_range(120, 360);
 item_no = irandom_range(0, array_length(global.items));
 queuing = true;
+asked_question = false;
+question_text = "";
