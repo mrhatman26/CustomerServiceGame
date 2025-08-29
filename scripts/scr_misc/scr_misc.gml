@@ -38,13 +38,6 @@ function string_split_real(value, deliminator, remove_empty=false){
 	return split_string;
 }
 
-/*function get_need_params(need, subneed, my_id, item=""){
-	switch(need){
-		case 0:
-			my_id.question_text = "";
-	}
-}*/
-
 function string_title(str){
 	var current_char = "";
 	for (var counter = 0; counter < string_length(str); counter++){

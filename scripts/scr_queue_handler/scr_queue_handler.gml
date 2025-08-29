@@ -30,7 +30,7 @@ function remove_from_queue(customer_id){
 }
 
 function update_entire_queue(){
-	with (obj_customer){
+	with (obj_customer_old){
 		if (queuing == true){
 			my_queue_pos = get_array_index(global.controller.customer_queue, self.id);
 			queue_pos_updated = true;

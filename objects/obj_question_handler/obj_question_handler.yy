@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_customer_ghost",
+  "%Name":"obj_question_handler",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_customer_ghost",
+  "name":"obj_question_handler",
   "overriddenProperties":[],
   "parent":{
-    "name":"Customers",
-    "path":"folders/Objects/Customers.yy",
+    "name":"System",
+    "path":"folders/Objects/System.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_customers_old",
-    "path":"sprites/spr_customers_old/spr_customers_old.yy",
+    "name":"spr_question_handler",
+    "path":"sprites/spr_question_handler/spr_question_handler.yy",
   },
   "spriteMaskId":null,
   "visible":true,
