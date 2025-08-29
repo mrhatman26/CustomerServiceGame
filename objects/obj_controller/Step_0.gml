@@ -7,13 +7,12 @@ if (keyboard_check(vk_shift) && keyboard_check_pressed(ord("R"))){
 if (keyboard_check(vk_shift) && keyboard_check_pressed(ord("D"))){
 	global.debug = !global.debug;
 }
-//Customer Spawning
 if (global.debug == true){
 	if (mouse_check_button_pressed(mb_left)){
 		instance_create_layer(mouse_x + 128, mouse_y - 128, "Instances", obj_customer_ghost);
 	}
 	if (mouse_check_button_pressed(mb_right)){
-		instance_create_layer(mouse_x, mouse_y, "Instances", obj_customer_old);
+		instance_create_layer(mouse_x, mouse_y, "Instances", obj_customer);
 	}
 	if (keyboard_check_pressed(ord("S"))){
 		customer_create_timer = 0;
